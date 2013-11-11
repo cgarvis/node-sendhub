@@ -15,7 +15,7 @@ module.exports = function (grunt) {
         commitMessage: 'chore: release v%VERSION%',
         commitFiles: ['package.json'],
         files: ['package.json'],
-        pushTo: 'master'
+        pushTo: 'origin'
       }
     },
 
