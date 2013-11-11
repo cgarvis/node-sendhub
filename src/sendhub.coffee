@@ -70,7 +70,7 @@ sendHub =
     qs = extend @auth()
 
     json =
-      contacts: [contact.id]
+      contacts: [contact.id_str || contact.id]
       text: text
 
     log.debug "Sendhub Request: Send Message (#{contact.id}, text)"
