@@ -25,9 +25,12 @@
     "postpublish": "grunt clean",
     "test": "grunt test"
   },
+  "bugs": {
+    "url": "https://github.com/cgarvis/node-sendhub/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Moveline/node-sendhub.git"
+    "url": "git://github.com/cgarvis/node-sendhub.git"
   },
   "keywords": [
     "sms",
@@ -36,7 +39,7 @@
     "message",
     "moveline"
   ],
-  "author": "Moveline",
+  "author": "Christopher Garvis <cgarvis@gmail.com>",
   "license": "MIT",
   "contributors": [
     "Adam Gibbons <adam.d.gibbons@gmail.com>",
