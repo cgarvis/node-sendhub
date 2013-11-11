@@ -3,7 +3,7 @@ should = require 'should'
 
 describe 'sendhub', ->
   it 'returns an object', ->
-    sendhub.should.be.a('object')
+    sendhub.should.be.type('object')
 
   it 'takes username', ->
     ( ->
