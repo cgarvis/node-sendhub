@@ -11,12 +11,18 @@
     "coffee-script": ">= 0",
     "mocha": ">= 0",
     "nock": ">= 0",
-    "should": ">= 0"
+    "should": ">= 0",
+    "grunt": "~0.4.1",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-npm": "0.0.2",
+    "grunt-contrib-coffee": "~0.7.0",
+    "matchdep": "~0.3.0",
+    "grunt-contrib-clean": "~0.5.0"
   },
   "scripts": {
-    "prepublish": "make generate-js",
-    "postpublish": "make clean",
-    "test": "make test"
+    "prepublish": "grunt build",
+    "postpublish": "grunt clean",
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
